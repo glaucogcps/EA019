@@ -1,0 +1,21 @@
+tipo,reag,esperado,descricao,pred,concordancia,acerto_top1,acerto_top3
+SN2,CCBr.[C-]#N.[Na+],CCC#N,bromoetano + NaCN,CCC#N,0.5,True,True
+SN2,CCCCBr.[OH-].[Na+],CCCCO,1-bromobutano + NaOH,CCCCOCCCC,0.6,False,False
+SN2 (Williamson),[O-]c1ccccc1.[Na+].CI,COc1ccccc1,fenóxido + iodometano,COc1ccccc1,1.0,True,True
+E2,CC(C)(C)Br.CC(C)(C)[O-].[K+],C=C(C)C,brometo de t-butila + KOtBu,CC(C)(C)OC(C)(C)C,1.0,False,False
+Adição eletrofílica,C=CC.Br,CC(C)Br,propeno + HBr (Markovnikov),C=CCCBr,0.3,False,False
+Hidrogenação,C1=CCCCC1.[H][H].[Pd],C1CCCCC1,cicloexeno + H2/Pd,C1CCCCC1,0.5,True,True
+Esterificação Fischer,CC(=O)O.CCO.OS(=O)(=O)O,CCOC(C)=O,ácido acético + etanol/H2SO4,CCOC(C)=O,1.0,True,True
+Acilação de fenol,CC(=O)Cl.Oc1ccccc1,CC(=O)Oc1ccccc1,fenol + cloreto de acetila,CC(=O)Oc1ccccc1,1.0,True,True
+Redução (NaBH4),CC(=O)c1ccccc1.[Na+].[BH4-].CO,CC(O)c1ccccc1,acetofenona + NaBH4,CC(O)c1ccccc1,1.0,True,True
+SEAr nitração,c1ccccc1.O=[N+]([O-])O.OS(=O)(=O)O,O=[N+]([O-])c1ccccc1,benzeno + HNO3/H2SO4,O=[N+]([O-])c1ccccc1,0.9,True,True
+SEAr Friedel-Crafts,c1ccccc1.CC(=O)Cl.Cl[Al](Cl)Cl,CC(=O)c1ccccc1,benzeno + AcCl/AlCl3,CC(=O)c1ccccc1,1.0,True,True
+Diels-Alder,C=CC=C.O=C1C=CC(=O)O1,O=C1OC(=O)C2CC=CCC12,butadieno + anidrido maleico,O=C1C=CC(=O)O1,0.5,False,False
+Wittig,O=Cc1ccccc1.C=P(c1ccccc1)(c1ccccc1)c1ccccc1,C=Cc1ccccc1,benzaldeído + Ph3P=CH2,C=Cc1ccccc1,1.0,True,True
+Amida,O=C(Cl)c1ccccc1.Nc1ccccc1,O=C(Nc1ccccc1)c1ccccc1,cloreto de benzoíla + anilina,O=C(Nc1ccccc1)c1ccccc1,1.0,True,True
+Proteção Boc,NCCc1ccccc1.CC(C)(C)OC(=O)OC(=O)OC(C)(C)C,CC(C)(C)OC(=O)NCCc1ccccc1,fenetilamina + Boc2O,CC(C)(C)OC(=O)NCCc1ccccc1,1.0,True,True
+Suzuki,Brc1ccccc1.OB(O)c1ccccc1.[Pd],c1ccc(-c2ccccc2)cc1,bromobenzeno + PhB(OH)2,c1ccc(-c2ccccc2)cc1,1.0,True,True
+Grignard,O=Cc1ccccc1.C[Mg]Br,CC(O)c1ccccc1,benzaldeído + MeMgBr,CC(O)c1ccccc1,0.9,True,True
+Oxidação (PCC),CCCCO.O=[Cr](=O)([O-])Cl.c1cc[nH+]cc1,CCCC=O,1-butanol + PCC,CCCCOS(=O)(=O)Cl,0.3,False,False
+Aldol (Claisen-Schmidt),O=Cc1ccccc1.CC(C)=O.[OH-].[Na+],CC(=O)/C=C/c1ccccc1,benzaldeído + acetona/NaOH,CC(=O)C=Cc1ccccc1,1.0,False,True
+Hidrólise de éster,CCOC(C)=O.[OH-].[Na+].O,CC(=O)O,acetato de etila + NaOH,CC(=O)O,0.6,True,True

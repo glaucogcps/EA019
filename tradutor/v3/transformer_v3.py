@@ -2,7 +2,7 @@
 """
 TRADUTOR REAGENTES -> PRODUTO (SMILES)  —  versão corrigida (v2)
 ================================================================
-Reescrita do transformer_v1.ipynb do Glauco com as correções discutidas:
+Reescrita do transformer_v1.ipynb com as correções discutidas:
 
   1. Tokenização por REGEX (Schwaller et al.): 'Cl', 'Br', '[C@@H]', '[Na+]' viram
      UM token. O dicionário EMBEDDING_LOOKUP da v1 nunca era usado (o código lia

@@ -1,0 +1,21 @@
+tipo,reag,esperado,descricao
+SN2,CCBr.[C-]#N.[Na+],CCC#N,bromoetano + NaCN
+SN2,CCCCBr.[OH-].[Na+],CCCCO,1-bromobutano + NaOH
+SN2 (Williamson),[O-]c1ccccc1.[Na+].CI,COc1ccccc1,fenóxido + iodometano
+E2,CC(C)(C)Br.CC(C)(C)[O-].[K+],C=C(C)C,brometo de t-butila + KOtBu
+Adição eletrofílica,C=CC.Br,CC(C)Br,propeno + HBr (Markovnikov)
+Hidrogenação,C1=CCCCC1.[H][H].[Pd],C1CCCCC1,cicloexeno + H2/Pd
+Esterificação Fischer,CC(=O)O.CCO.OS(=O)(=O)O,CCOC(C)=O,ácido acético + etanol/H2SO4
+Acilação de fenol,CC(=O)Cl.Oc1ccccc1,CC(=O)Oc1ccccc1,fenol + cloreto de acetila
+Redução (NaBH4),CC(=O)c1ccccc1.[Na+].[BH4-].CO,CC(O)c1ccccc1,acetofenona + NaBH4
+SEAr nitração,c1ccccc1.O=[N+]([O-])O.OS(=O)(=O)O,O=[N+]([O-])c1ccccc1,benzeno + HNO3/H2SO4
+SEAr Friedel-Crafts,c1ccccc1.CC(=O)Cl.Cl[Al](Cl)Cl,CC(=O)c1ccccc1,benzeno + AcCl/AlCl3
+Diels-Alder,C=CC=C.O=C1C=CC(=O)O1,O=C1OC(=O)C2CC=CCC12,butadieno + anidrido maleico
+Wittig,O=Cc1ccccc1.C=P(c1ccccc1)(c1ccccc1)c1ccccc1,C=Cc1ccccc1,benzaldeído + Ph3P=CH2
+Amida,O=C(Cl)c1ccccc1.Nc1ccccc1,O=C(Nc1ccccc1)c1ccccc1,cloreto de benzoíla + anilina
+Proteção Boc,NCCc1ccccc1.CC(C)(C)OC(=O)OC(=O)OC(C)(C)C,CC(C)(C)OC(=O)NCCc1ccccc1,fenetilamina + Boc2O
+Suzuki,Brc1ccccc1.OB(O)c1ccccc1.[Pd],c1ccc(-c2ccccc2)cc1,bromobenzeno + PhB(OH)2
+Grignard,O=Cc1ccccc1.C[Mg]Br,CC(O)c1ccccc1,benzaldeído + MeMgBr
+Oxidação (PCC),CCCCO.O=[Cr](=O)([O-])Cl.c1cc[nH+]cc1,CCCC=O,1-butanol + PCC
+Aldol (Claisen-Schmidt),O=Cc1ccccc1.CC(C)=O.[OH-].[Na+],CC(=O)/C=C/c1ccccc1,benzaldeído + acetona/NaOH
+Hidrólise de éster,CCOC(C)=O.[OH-].[Na+].O,CC(=O)O,acetato de etila + NaOH
