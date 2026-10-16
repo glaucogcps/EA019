@@ -1,0 +1,56 @@
+[
+  {
+    "id": "acetilacao_fenol",
+    "titulo": "Acetilação do fenol",
+    "enunciado": "Fenol reage com cloreto de acetila. Qual é o produto orgânico principal?",
+    "reagentes": "CC(=O)Cl.Oc1ccccc1",
+    "produto_esperado": "CC(=O)Oc1ccccc1",
+    "produto_nome": "acetato de fenila",
+    "nota_mecanismo": "Substituição nucleofílica acílica: o oxigênio do fenol ataca a carbonila do cloreto de acila, forma intermediário tetraédrico e o cloreto sai."
+  },
+  {
+    "id": "hbr_propeno",
+    "titulo": "Adição de HBr ao propeno",
+    "enunciado": "Propeno reage com HBr, sem peróxidos. Qual é o produto principal?",
+    "reagentes": "C=CC.Br",
+    "produto_esperado": "CC(C)Br",
+    "produto_nome": "2-bromopropano",
+    "nota_mecanismo": "Adição eletrofílica com regra de Markovnikov: a protonação forma o carbocátion mais estável (secundário) e o brometo ataca esse carbono."
+  },
+  {
+    "id": "fischer",
+    "titulo": "Esterificação de Fischer",
+    "enunciado": "Ácido acético e etanol são aquecidos com ácido sulfúrico. Qual é o produto orgânico principal?",
+    "reagentes": "CC(=O)O.CCO.O=S(=O)(O)O",
+    "produto_esperado": "CCOC(C)=O",
+    "produto_nome": "acetato de etila",
+    "nota_mecanismo": "Catálise ácida: a carbonila é protonada, o etanol ataca, há transferência de próton e sai água."
+  },
+  {
+    "id": "pcc_cicloexanol",
+    "titulo": "Oxidação com PCC",
+    "enunciado": "Cicloexanol é tratado com PCC em diclorometano. Qual é o produto?",
+    "reagentes": "OC1CCCCC1.[O-][Cr](=O)(=O)Cl.c1cc[nH+]cc1",
+    "produto_esperado": "O=C1CCCCC1",
+    "produto_nome": "cicloexanona",
+    "nota_mecanismo": "Álcool secundário forma éster de cromato e sofre eliminação, gerando cetona. PCC não oxida além disso."
+  },
+  {
+    "id": "diels_alder",
+    "titulo": "Diels-Alder",
+    "enunciado": "1,3-butadieno reage com eteno sob aquecimento. Qual é o produto?",
+    "reagentes": "C=CC=C.C=C",
+    "produto_esperado": "C1=CCCCC1",
+    "produto_nome": "cicloexeno",
+    "nota_mecanismo": "Cicloadição [4+2] concertada: duas novas ligações sigma se formam e a ligação dupla migra para o centro do dieno."
+  },
+  {
+    "id": "hidratacao_sem_gabarito",
+    "titulo": "Hidratação de alceno (sem gabarito, teste)",
+    "enunciado": "Propeno é tratado com água e ácido sulfúrico diluído. Qual é o produto principal?",
+    "reagentes": "C=CC.O.O=S(=O)(O)O",
+    "produto_esperado": null,
+    "produto_nome": "",
+    "nota_mecanismo": "Adição eletrofílica catalisada por ácido, passando por carbocátion."
+  }
+]

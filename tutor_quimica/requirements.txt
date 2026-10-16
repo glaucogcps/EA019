@@ -1,0 +1,4 @@
+streamlit>=1.37
+rdkit
+torch
+streamlit-ketcher
